@@ -1,4 +1,12 @@
-﻿# Win10ITS Modules (NOT ALL FILES PORTED TO YOU)
+﻿# IntuneNAMEOFSCRIPT.ps1
+* these are run either via a script published via Intune or scheduled tasks, etc
+* EventsMain: lots of visibility improvements for our endpoints
+* Acrobat: uses a .NET async download for large files
+* HWSW: lots of different data collection for endpoints
+
+
+
+# Win10ITS Modules (NOT ALL FILES PORTED TO YOU)
 * This module is installed on all Penn Law endpoints
 * Updated via Proactive Remediation Script (Win10ITS); update removes old versions
 * PWSH incompatibilities: AudioDeviceCmdlet, Bluetooth, Mute
